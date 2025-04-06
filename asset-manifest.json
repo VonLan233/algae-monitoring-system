@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/algae-monitoring-system/static/css/main.570f2161.css",
+    "main.js": "/algae-monitoring-system/static/js/main.bee55781.js",
+    "index.html": "/algae-monitoring-system/index.html",
+    "main.570f2161.css.map": "/algae-monitoring-system/static/css/main.570f2161.css.map",
+    "main.bee55781.js.map": "/algae-monitoring-system/static/js/main.bee55781.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.570f2161.css",
+    "static/js/main.bee55781.js"
+  ]
+}
