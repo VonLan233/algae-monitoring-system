@@ -1,0 +1,86 @@
+.sensor-container {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 24px;
+}
+
+.sensor-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.sensor-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 16px;
+}
+
+@media (min-width: 768px) {
+  .sensor-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 992px) {
+  .sensor-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1200px) {
+  .sensor-grid {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+.sensor-item {
+  background-color: #1976d2;
+  color: white;
+  border-radius: 8px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sensor-name {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.sensor-value {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.sensor-status {
+  margin-top: 8px;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.status-excellent {
+  background-color: #4caf50;
+}
+
+.status-good {
+  background-color: #2196f3;
+}
+
+.status-fair {
+  background-color: #ff9800;
+}
+
+.status-poor {
+  background-color: #f44336;
+}
+
+.status-unknown {
+  background-color: #9e9e9e;
+}
